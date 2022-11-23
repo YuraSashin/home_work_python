@@ -11,4 +11,4 @@ elif a == 2:
 elif a == 3:
     print('x(min -∞; max 0) y(min -∞ max 0)')
 else:
-    print('x(min 0;(max ∞) y(min -∞, max 0)')
+    print('x(min 0; max ∞) y(min -∞, max 0)')
