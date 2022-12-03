@@ -27,7 +27,7 @@ def Polinominal(coefficient, min, max):
     return expression
 k = Number('Введите коэффициент К: ' , 'Введено некорректное значение')
 int_min = Number('Введите минимальное значение для рандома: ' , 'Введено некорректное значение')
-int_max = Number('Введите максимальное значение для рандома: ' , 'Введено некорректное значение')
+int_max = Number('Введите максимальное значение для рандома: ' , 'Введено некорректное значение ')
 polinominal_1 = Polinominal(k, int_min, int_max)
 polinominal_2 = Polinominal(k, int_min, int_max)
 path = 'polinominal_1.txt'
