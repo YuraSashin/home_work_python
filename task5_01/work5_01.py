@@ -18,7 +18,7 @@ def Game(move_int,candies_int):
     while candies_int > 0:
         if move_int == 0:
             player = Number('Сколько конфет вы хотите взять(не более 28):' , 'Введено некорректное значение')
-            while player > 29 or player > candies_int:
+            while player > 28 or player > candies_int:
                 print('Введено некорректное значение')
                 player = Number('Сколько конфет вы хотите взять(не более 28):' , 'Введено некорректное значение')
             print(f'Колличество конфет {candies_int}, Вы взяли {player}')
