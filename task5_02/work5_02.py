@@ -22,10 +22,10 @@ Moves(field)
 def Game(my_list: list):
     count = 1
     while count < 10:
-        move = Number('Вы ходите первым, выберите координату(1-9) чтобы поставить " Х " ' , 'Введено некорректное значение') - 1
+        move = Number('Выберите координату(1-9) чтобы поставить " Х " ' , 'Введено некорректное значение') - 1
         while my_list[move] == 'X' or my_list[move] == 'O':
             print('Ячейка занята, выберите другую')
-            move = Number('Вы ходите первым, выберите координату(1-9) чтобы поставить " Х " ' , 'Введено некорректное значение') - 1
+            move = Number('Выберите координату(1-9) чтобы поставить " Х " ' , 'Введено некорректное значение') - 1
         my_list[move] = 'X'
         print(f'Вы выбрали {move}')
         Moves(my_list)
@@ -64,6 +64,7 @@ def Game_over(my_list_2: list , temp: str) -> bool:
         return True
     else:
         return False 
+print('Вы ходите первым')
 Game(field)
 
 
